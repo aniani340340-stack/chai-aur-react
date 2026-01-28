@@ -1,9 +1,13 @@
 import Chai from './Chai.jsx';
 
 function App() {
+  const chaiaurcode = 'Chai is awesome!';
 
   return (
-    <Chai />
+    <><Chai />
+    <h1>Chai Aur react {chaiaurcode}</h1></>
+    
+
   )
 }
 
